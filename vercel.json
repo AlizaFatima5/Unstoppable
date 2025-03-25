@@ -1,15 +1,9 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "BookYourBarber/manage.py",
-      "use": "@vercel/python"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "BookYourBarber/manage.py"
+      "dest": "BookYourBarber/wsgi.py"
     }
   ],
   "env": {
