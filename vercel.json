@@ -11,5 +11,13 @@
       "src": "/(.*)",
       "dest": "BookYourBarber/wsgi.py"
     }
-  ]
+  ],
+  "env": {
+    "DJANGO_SETTINGS_MODULE": "BookYourBarber.settings"
+  },
+  "build": {
+    "env": {
+      "PYTHON_VERSION": "3.10"
+    }
+  }
 }
