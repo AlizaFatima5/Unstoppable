@@ -12,10 +12,6 @@
   "build": {
     "env": {
       "PYTHON_VERSION": "3.10"
-    },
-    {
-    "src":"BookyourBarber/wsgi.py",
-    "use":"@vercel/python"
     }
   }
 }
